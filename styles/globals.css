@@ -6,3 +6,27 @@ body {
     background-color: black;
     color: white;
 }
+
+@keyframes flicker {
+
+    0%,
+    19%,
+    21%,
+    23%,
+    25%,
+    54%,
+    56%,
+    100% {
+        opacity: 1;
+    }
+
+    20%,
+    24%,
+    55% {
+        opacity: 0.4;
+    }
+}
+
+.flicker {
+    animation: flicker 2.5s infinite;
+}
