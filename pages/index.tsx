@@ -11,9 +11,10 @@ export default function Home() {
         className="mb-8 drop-shadow-[0_0_1rem_#f97316] animate-pulse"
       />
       <h1 className="text-3xl md:text-5xl font-bold text-orange-500 mb-4 flicker">
-        A haunted experience is brewing...
+        Whispers echo through the shadows...
       </h1>
-      <p className="text-lg text-orange-300">Coming Soon to Java & Bedrock</p>
+      <p className="text-lg text-orange-300">HauntedSMP opens soon.</p>
     </div>
   );
 }
+
