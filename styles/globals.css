@@ -30,3 +30,9 @@ body {
 .flicker {
     animation: flicker 2.5s infinite;
 }
+
+body {
+    font-family: 'MedievalSharp', cursive;
+    background-color: black;
+    color: white;
+}
