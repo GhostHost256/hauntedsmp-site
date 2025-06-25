@@ -10,9 +10,10 @@ export default function Home() {
         height={256}
         className="mb-8 drop-shadow-[0_0_1rem_#f97316] animate-pulse"
       />
-      <h1 className="text-3xl md:text-5xl font-bold text-orange-500 mb-4 flicker">
-        Whispers echo through the shadows...
-      </h1>
+      <h1 className="text-3xl md:text-5xl font-bold text-orange-500 mb-4 flicker font-creepster">
+  Whispers echo through the shadows...
+</h1>
+
       <p className="text-lg text-orange-300">HauntedSMP opens soon.</p>
     </div>
   );

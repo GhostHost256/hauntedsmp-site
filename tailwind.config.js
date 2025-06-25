@@ -1,10 +1,13 @@
-/** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["./pages/**/*.{js,ts,jsx,tsx}"],
-  safelist: ['flicker'], // 👈 Add this line to prevent purge
+  safelist: ['flicker'],
   darkMode: 'class',
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        creepster: ['Creepster', 'cursive'],
+      },
+    },
   },
   plugins: [],
-}
+};
