@@ -1,0 +1,1 @@
+export default function Store() { return <p className='text-white'>Store Coming Soon</p>; }

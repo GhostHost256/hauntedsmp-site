@@ -1,0 +1,1 @@
+export default function Stats() { return <p className='text-white'>Stats Coming Soon</p>; }

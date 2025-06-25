@@ -1,0 +1,1 @@
+export default function Discord() { return <p className='text-white'>Join our Discord: Coming Soon</p>; }

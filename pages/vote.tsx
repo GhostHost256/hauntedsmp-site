@@ -1,0 +1,1 @@
+export default function Vote() { return <p className='text-white'>Vote Page Coming Soon</p>; }
